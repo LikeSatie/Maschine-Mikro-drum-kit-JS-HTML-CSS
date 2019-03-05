@@ -1,0 +1,57 @@
+html {
+  font-size: 10px;
+  background: url(img/maschine-mikro.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 47.5rem;
+  max-width: 47.5rem;
+}
+
+body,
+html {
+  margin: 10vh auto;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.keys {
+  width: 10rem;
+  margin: 18rem 0 0 45.8rem;
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  grid-gap: 1.8rem;
+  /* min-height: 100vh; */
+}
+
+.key {
+  border: 0.4rem solid black;
+  border-radius: 0.5rem;
+  /* margin: 1rem; */
+  font-size: 1.5rem;
+  padding: 0.5rem 0.5rem;
+  transition: all 0.07s ease;
+  width: 6.5rem;
+  height: 6.5rem;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.3);
+  text-shadow: 0 0 0.5rem black;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: #f38e4e;
+  box-shadow: 0 0 1rem #f38e4e;
+}
+
+kbd {
+  display: block;
+  font-size: 3.2rem;
+}
+
+.sound {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: #ffc600;
+}
